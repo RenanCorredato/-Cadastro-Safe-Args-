@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/telaUmFragment">
+    <fragment
+        android:id="@+id/telaUmFragment"
+        android:name="com.masterclass.cadastro.TelaUmFragment"
+        android:label="fragment_tela_um"
+        tools:layout="@layout/fragment_tela_um">
+        <action
+            android:id="@+id/action_telaUmFragment_to_telaDoisFragment"
+            app:destination="@id/telaDoisFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/telaDoisFragment"
+        android:name="com.masterclass.cadastro.TelaDoisFragment"
+        android:label="fragment_tela_dois"
+        tools:layout="@layout/fragment_tela_dois">
+        <action
+            android:id="@+id/action_telaDoisFragment_to_telaTresFragment"
+            app:destination="@id/telaTresFragment" />
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+
+        <argument
+            android:name="cpf"
+            app:argType="string" />
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+
+    </fragment>
+    <fragment
+
+        android:id="@+id/telaTresFragment"
+        android:name="com.masterclass.cadastro.TelaTresFragment"
+        android:label="fragment_tela_tres"
+        tools:layout="@layout/fragment_tela_tres">
+
+        <argument
+            android:name="name"
+            app:argType="string" />
+
+        <argument
+            android:name="cpf"
+            app:argType="string" />
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+
+        <argument
+            android:name="cep"
+            app:argType="string" />
+
+        <argument
+            android:name="cidade"
+            app:argType="string" />
+
+        <argument
+            android:name="endereco"
+            app:argType="string" />
+
+        <argument
+            android:name="numero"
+            app:argType="string" />
+
+        <argument
+            android:name="complemento"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>

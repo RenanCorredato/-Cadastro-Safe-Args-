@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".TelaTresFragment">
+
+    <TextView
+        android:id="@+id/tv_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_cpf2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CPF"
+
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_cep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CEP"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/tv_address2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/tv_number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/tv_complement2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Complemento"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
